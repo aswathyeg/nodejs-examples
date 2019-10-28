@@ -1,2 +1,2 @@
-# nodejs-examples
+# NodeJS Examples
 A collection of NodeJS examples
