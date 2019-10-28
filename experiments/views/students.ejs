@@ -1,0 +1,41 @@
+<doctype <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            body{
+        background-color: bisque;
+    }
+    h1,h2{
+        text-align: center;
+        text-decoration: blueviolet;
+        font-style: italic;
+        border-bottom: 1px solid black;
+    }
+    p{
+        text-align: center;
+        font-style: italic;
+    
+    }</style>
+        <title>Page Title</title>
+       
+        
+        
+        
+    </head>
+    <body>
+     <h1>Welcome <%=name%></h1>   
+     <p>ID:<%=id%></p>
+     <h2>Subjects:</h2>
+    <ul>
+        
+        <% subjects.forEach(function(item){%>
+    
+            <li>
+    <%=item%>
+                </li>
+       <% })%>
+        
+    </ul>
+     
+    </body>
+    </html>
